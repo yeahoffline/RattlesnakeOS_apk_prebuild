@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := signal 
-LOCAL_SRC_FILES := Signal-website-release-4.25.10.apk 
+LOCAL_MODULE := app1
+LOCAL_SRC_FILES := app1.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
